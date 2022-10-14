@@ -1,0 +1,9 @@
+.DS_Store
+.vscode/settings.json
+
+node_modules/
+.env
+
+app.yaml
+
+coin-data.js
