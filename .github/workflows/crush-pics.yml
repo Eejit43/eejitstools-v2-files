@@ -3,11 +3,11 @@ on:
     pull_request:
         branches:
             - master
-        paths:
-            - '**.jpg'
-            - '**.jpeg'
-            - '**.png'
-            - '**.gif'
+        # paths:
+        #     - '**.jpg'
+        #     - '**.jpeg'
+        #     - '**.png'
+        #     - '**.gif'
 jobs:
     crush:
         runs-on: ubuntu-latest
