@@ -17,6 +17,7 @@ jobs:
               uses: calibreapp/image-actions@main
               with:
                   githubToken: ${{ secrets.GITHUB_TOKEN }}
+                  compressOnly: true
             - name: Create new pull request if needed
               if: steps.calibre.outputs.markdown != ''
               uses: peter-evans/create-pull-request@v3
